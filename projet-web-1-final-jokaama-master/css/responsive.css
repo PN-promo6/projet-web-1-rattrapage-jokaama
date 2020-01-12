@@ -1,0 +1,198 @@
+@media only screen and (max-width: 640px) {
+
+
+
+    body {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section {
+        width: 100% !important;
+        position: static !important;
+    }
+
+    nav {
+        width: 100%;
+        padding: 6px 10px;
+    }
+    .container {
+      width:100%;
+    }
+
+    .main-nav {
+      width: 100%;
+
+    }
+    /* .main-nav nav {
+       justify-content: normal;
+    } */
+    .nav-links {
+        display: none;
+        width: 100%
+    }
+    .right-logo {
+
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+        height: 235px;
+    }
+
+    .header-bg {
+        width: 100%;
+        background-image: none;
+        height: auto;
+    }
+
+    .header-front {
+        height: 275px;
+        width: 100%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        box-shadow: none;
+        position: static;
+    }
+
+    .header-front p {
+        font-size: 15px;
+        top: 55px;
+
+    }
+    .newcoll {
+      width:200px;
+    }
+
+    #Collection {
+        font-size: 25px;
+        margin-right: 5px;
+        top: 90px;
+
+    }
+
+    #Janowski {
+        top: 86px;
+        font-size: 40px;
+        margin-right: 5px;
+    }
+
+    .presentation {
+        display: none;
+    }
+
+    .text-concept {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .concept img {
+        display: block;
+        margin : auto;
+        width: 80%;
+    }
+
+    .concept {
+        max-height: inherit;
+    }
+
+    .concept h1 {
+
+        margin-left: 20px;
+    }
+
+    .adv {
+        height: 350px;
+    }
+
+    .advantages {
+      width: 87%;
+      margin: 20px 20px 30px 50px;
+      top: 30px;
+      display: flex;
+
+    }
+
+    .advantages .text-adv {
+      margin: 0 auto;
+      font-weight: bold;
+    }
+    .advantages .description {
+      display:none;
+    }
+
+    .promo {
+        height: 150px;
+    }
+    .promo p {
+      margin-top: 15px;
+    }
+
+    .advantages img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .shop {
+        margin: 0;
+    }
+
+    .shop .card {
+        margin: 10px 0;
+        height: 400px;
+    }
+
+
+    .product-actions {
+        display: flex;
+        flex-direction: column;
+    }
+    .info-product {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+    .btn, .btn-fav {
+      width:100%;
+    }
+
+    .concept p {
+      padding:30px;
+      opacity: 1;
+      font-size: 1.5rem;
+    }
+    .concept img {
+      display: none;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    footer > div {
+        margin: 30px 0;
+    }
+
+    footer > div:after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        padding-top: 20px;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    footer > div:last-child:after {
+        border-bottom: none;
+    }
+
+}
